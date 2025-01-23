@@ -1,0 +1,188 @@
+# What is Node.Js?
+JavaScript Runtime Environment
+it is used for server side programming.
+
+
+*Node.Js is not a language,library or framework.
+
+
+# Node Installation
+
+installation links 
+ for windows users: https:nodejs.org/en/download
+
+Node version check karne  ke liye hume
+(Git Ya Terminal) ke under jana hota hai
+
+node - v
+or
+node -version
+ than enter
+
+
+# Node REPL(Read Evaluate Print Loop)
+
+  .help gives us commands
+
+Node Window Provide
+Terminal under node
+>ls
+ls is not defined
+>pwd
+pwd is not defined
+>1+2
+3
+>console.log("hello");
+hello
+>"hello"+" umesh"
+'hello umesh'
+>.help
+
+Terminal ko cut karne ke liye
+>.exit 
+
+
+# Node Files
+ node filename.js
+Files Create by the command // touch script.js
+
+VScode me coding
+let n =5;
+ for(let i=0; i<n; i++){
+console.log("hello," i);
+}
+kuch bhi change karna ho tow
+console.log("bye!");
+
+code ko run karne ke liye terminal ke under
+current folder ke under 
+node script.js  //than enter
+
+# Process in Node?
+Process:-This object provides information about,and control over,the current Node.js process.
+
+
+process.argv:-Returns an array containing the command-line arguments passed when the Node.js
+process was launched.
+
+Terminal ke under //node
+>process
+
+>process.version
+
+>process.release
+
+>process.cwd();
+
+>process.argv
+
+>.exit
+
+>clear
+
+vscode me code likhana hai 
+
+console.log(process.argv);
+
+terminal ne run karna hai
+
+node script.js  than enter
+
+VScode ke under code likhana hai,
+let args = process.argv;
+for (let i=2; i<args.length;
+    console.log("hello to",args[i]);
+}
+ Terminal ke under run karna hai//node filename.js umesh rajat rani neha raj  than enter
+
+
+# Export in files
+
+module.exports
+requiring files
+
+require()  a built-in function to include external modules that exist in separate files.
+
+
+module.exports  a special object
+
+
+
+
+# Export in Directories
+
+module.exports
+requiring directories
+
+require()  a built-in function to include external modules that exist in separate files.
+
+
+module.exports  a special object
+
+
+# NPM (Node Package Manager)
+npm is the standard package manager for Node.js
+
+1. Library Of Package
+2. Command line Tool
+
+
+# Installing Packages
+
+npm install<-package name->
+
+npm install figlet than enter
+
+
+#Installing Packages
+
+node-modules:-  The node-modules folder contains every installed dependency for your project.
+
+Package-lock.json:-  It records the exact version of installed dependency, including its sub-dependency and their versions.
+
+
+
+# Package.json
+The Package.json file contains descriptive and functional metadata about a project, such as a name, version, and dependencies
+
+  npm init
+
+
+node_module delete ho jata hai tow
+
+npm install than enter
+
+
+
+# Local v/s Global
+
+npm install -g <- package name ->
+
+npm link <- package name ->
+
+
+# require v/s import
+  
+ import { sum } from "./math.js"
+ 
+We can't selectively load only pieces we need with require but with import,we can selectively load only
+the pieces we need, which can save memory.
+
+
+Loading is synchronous for 'require' but can be asynchronous for 'import'.
+
+
+
+
+
+               
+
+    
+
+
+
+
+
+
+
+
